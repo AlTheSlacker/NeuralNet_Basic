@@ -107,7 +107,7 @@ public class Network
         NeuronsUpdateByLayer(netLayers.Length - 1);
     }
 
-    public void BackPropogate(double[][] sampledata, double[][] targetdata, int epochs)
+    public void BackPropagate(double[][] sampledata, double[][] targetdata, int epochs)
     {
         int datasets = sampledata.Length;
         int outputLayerID = netLayers.Length - 1;

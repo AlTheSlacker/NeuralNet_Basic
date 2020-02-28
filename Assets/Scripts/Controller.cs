@@ -21,7 +21,7 @@ public class Controller : MonoBehaviour
         double[][] sampledata = new double[10][] { new double[] { 0.0 }, new double[] { 10.0 }, new double[] { 20.0 }, new double[] { 30.0 }, new double[] { 40.0 }, new double[] { 50.0 }, new double[] { 60.0 }, new double[] { 70.0 }, new double[] { 80.0 }, new double[] { 90.0 } };
         double[][] targetdata = new double[10][] { new double[] { 0.0 }, new double[] { 0.173648 }, new double[] { 0.34202 }, new double[] { 0.5 }, new double[] { 0.642788 }, new double[] { 0.766044 }, new double[] { 0.866025 }, new double[] { 0.93969 }, new double[] { 0.9848 }, new double[] { 1.0 } };
         int epochs = 20000;
-        net.BackPropogate(sampledata, targetdata, epochs);
+        net.BackPropagate(sampledata, targetdata, epochs);
 
         // define specific input and run trained network
         double[] inputValues = new double[] { 45 };
