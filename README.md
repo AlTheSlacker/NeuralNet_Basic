@@ -1,5 +1,7 @@
 # NeuralNet_Basic
 
+I'm busy changing this at the moment and will replace this repository with an updated one called ANN when the work is complete
+
 Implementing a basic neural network in Unity. This is the outcome of some miss-spent time on a personal exploration of how neural networks worked. This sample allows a small network to predict the values of a sine function, but could be trivially re-purposed to many other simple tasks. Check out the wiki for more information.
 
 ## Things to know
